@@ -8,7 +8,7 @@ public class Composite2 {
 		c.r = 3;
 		
 		System.out.println("c.p.x = "+c.p.x);
-		System.out.println("c.p.y = "+c.p.y);
+		System.out.println("c.psy = "+c.p.y);
 		System.out.println("c.r = "+c.r);
 	}
 
@@ -18,11 +18,11 @@ class Mypoint{
 	int y;
 }
 
-//class Circle extends Mypoint{// »ó¼Ó
+//class Circle extends Mypoint{// ï¿½ï¿½ï¿½
 //	int r;
 //}
 
-class Circle{ //Æ÷ÇÔ°ü°è
+class Circle{ //ï¿½ï¿½ï¿½Ô°ï¿½ï¿½ï¿½
 	Mypoint p; //= new Mypoint();
 	int r;
 	
