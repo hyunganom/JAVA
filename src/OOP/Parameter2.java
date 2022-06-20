@@ -13,7 +13,7 @@ public class Parameter2 {
 		System.out.println("main() : x = "+d.x);
 	}
 	
-	static void change(Date2 d) {//ÂüÁ¶Çü ¸Å°³º¯¼ö
+	static void change(Date2 d) {//ì°¸ì¡°í˜• ë§¤ê°œë³€ìˆ˜
 		d.x = 1000;
 		System.out.println("change() : x = "+d.x);
 	}

@@ -7,15 +7,15 @@ public class Parameter3 {
 		d.x = 10;
 		
 		Date3 d2 = copy(d);
-		System.out.println("d.x ="+d.x);
-		System.out.println("d2.x ="+d2.x);
+		System.out.println("d.x = "+d.x);
+		System.out.println("d2.x = "+d2.x);
 	}
 	static Date3 copy(Date3 d) {
-		Date3 tmp = new Date3();	//»õ·Î¿î °´Ã¼¸¦ »ı¼ºÇÑ´Ù.
+		Date3 tmp = new Date3();	//ìƒˆë¡œìš´ ê°ì²´ë¥¼ ìƒì„±í•œë‹¤
 			
-		tmp.x = d.x;				// d.xÀÇ °ªÀ» tmp.x¿¡ º¹»çÇÑ´Ù.
+		tmp.x = d.x;				// d.xì˜ ê°’ì„ tmp.xì— ë³µì‚¬í•œë‹¤
 		
-		return tmp;					//º¹»çÇÑ °´Ã¼ÀÇ ÁÖ¼Ò¸¦ ¹İÈ¯ÇÑ´Ù.
+		return tmp;					//ë³µì‚¬í•œ ê°ì²´ì˜ ì£¼ì†Œë¥¼ ë°˜í™˜í•œë‹¤.
 	}
 }
 class Date3{int x;}
