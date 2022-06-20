@@ -2,8 +2,8 @@ package OOP;
 
 public class Class_2 {
 public static void main(String[] args) {
-	//¸ÞÀÎ ¸Þ¼­µå¿¡ ÀÖ´Â Å¬·¡½º ÀÌ¸§ÀÌ ¼Ò½ºÆÄÀÏÀÌ¸§ÇÏ°í ÀÏÄ¡ÇØ¾ß ÇÑ´Ù.
+	//ë©”ì¸ ë©”ì„œë“œì— ìžˆëŠ” í´ëž˜ìŠ¤ ì´ë¦„ì´ ì†ŒìŠ¤íŒŒì¼í•˜ê³  ì¼ì¹˜í•´ì•¼ í•œë‹¤.
 }
 }
-//Å¬·¡½ºÀÇ Á¤ÀÇ  
-//Å¬·¡½º== µ¥ÀÌÅÍ + ÇÔ¼ö
+//í´ëž˜ìŠ¤ì˜ ì •ì˜
+//í´ëž˜ìŠ¤ == ë°ì´í„° + í•¨ìˆ˜
