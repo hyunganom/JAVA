@@ -1,9 +1,12 @@
 package OOP;
 
 public class Method3 {
-
+    public static void main(String[] args) {
+        Max max1 = new Max();
+        max1.max(3,5);
+    }
 }
-// µÎ °ªÀ» ¹Ş¾Æ¼­ µÑÁß¿¡ Å«°ªÀ» ¹İÈ¯ÇÏ´Â ¸Ş¼­µå¸¦ ÀÛ¼ºÇÏ½Ã¿À.
+// ë‘ ê°’ì„ ë°›ì•„ì„œ ë‘˜ì¤‘ì— í°ê°’ì„ ë°˜í™˜í•˜ëŠ” ë©”ì„œë“œë¥¼ ì‘ì„±í•˜ì‹œì˜¤.
 class Max{
 	long max(long a, long b) {
 		long result=0;
@@ -11,8 +14,9 @@ class Max{
 			result =a;
 		}
 		else{
-			result = b;
+
 		}
 		return result;
 	}
+
 }

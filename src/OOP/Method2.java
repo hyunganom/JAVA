@@ -3,9 +3,9 @@ package OOP;
 public class Method2 {
 
 	public static void main(String[] args) {
-		//mymath °´Ã¼»ı¼º
+		//mymath ê°ì²´ìƒì„±
 		MyMath mm = new MyMath();
-		//mymath °´Ã¼»ç¿ë
+		//mymath ê°ì²´ì‚¬ìš©
 		long result1 = mm.add(5L, 3L);
 		long result2 = mm.subtract(5L, 3L);
 		long result3 = mm.multiply(5L, 3L);
@@ -18,13 +18,13 @@ public class Method2 {
 	}
 
 }
-//mymath Å¬·¡½º ÀÛ¼º
-//¸Ş¼­µå´Â Å¬·¡½º ¿µ¿ª¿¡¸¸ Á¤ÀÇ °¡´É!!!!
+//mymath í´ë˜ìŠ¤ ì‘ì„±
+//ë©”ì„œë“œëŠ” í´ë˜ìŠ¤ ì˜ì—­ì—ì„œë§Œ ì •ì˜ ê°€ëŠ¥!!!!
 class MyMath{
 	long add(long a, long b) {
 		long result = a+b;
 		return result;
-		//return a+b; // À§ÀÇ µÎÁÙÀ» ÀÌ¿Í°°ÀÌ ÇÑ ÁÙ·Î °£´ÜÈ÷ ÇÒ ¼ö ÀÖ´Ù.
+		//return a+b; // ìœ„ì˜ ë‘ì¤„ì„ ì´ì™€ê°™ì´ í•œ ì¤„ë¡œ ê°„ë‹¨íˆ í•  ìˆ˜ ìˆë‹¤.
 	}
 	long subtract(long a, long b) {return a-b;}
 	long multiply(long a, long b) {return a*b;}
