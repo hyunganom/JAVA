@@ -3,13 +3,13 @@ package OOP;
 public class Array_Oop {
 
 }
-//	°´Ã¼¹è¿­ == ÂüÁ¶º¯¼ö ¹è¿­
-//	Tv tv1, tv2, tv3; ----> Tv[] tvArr = new Tv[3];	
+//	ê°ì²´ë°°ì—´ == ì°¸ì¡°ë³€ìˆ˜ ë°°ì—´
+//	Tv tv1, tv2, tv3; ----> Tv[] tvArr = new Tv[3];
 
-//	Tv tvArr = new Tv[3]; --->±æÀÌ°¡ 3ÀÎ tvÅ¸ÀÔÀÇ ÂüÁ¶º¯¼ö ¹è¿­
-//	°´Ã¼¸¦ »ý¼ºÇØ¼­ ¹è¿­ÀÇ °¢ ¿ä¼Ò¿¡ ÀúÀå
+//	Tv[] tvArr = new Tv[3]; --->ê¸¸ì´ê°€ 3ì¸ tvíƒ€ìž…ì˜ ì°¸ì¡°ë³€ìˆ˜ ë°°ì—´
+//	ê°ì²´ë¥¼ ìƒì„±í•˜ì„œ ë°°ì—´ì˜ ê° ìš”ì†Œì— ì €ìž¥
 //	tvArr[0] = new Tv();
 //	tvArr[1] = new Tv();
 //	tvArr[2] = new Tv();
-	
-//	ÁÖÀÇ»çÇ× : °´Ã¼¸¦ Àú·¸°Ô ¸¸µé¾úÀ»»Ó ¾È¿¡ °ªÀÌ ¾È´ã°ÜÀÖ´Ù. Á¶½ÉÇÏÀÚ(°´Ã¼ÀÇ ÁÖ¼Ò¸¸ ¸¸µé¾úÀ½)
+
+//	ì£¼ì˜ì‚¬í•­ : ê°ì²´ë¥¼ ì €ë ‡ê²Œ ë§Œë“¤ì—ˆì„ë¿ ì•ˆì— ê°’ì´ ì•ˆë‹´ê²¨ì ¸ ìžˆë‹¤.(ê°ì²´ì˜ ì£¼ì†Œë§Œ ë§Œë“¤ì—ˆì„ë¿)
