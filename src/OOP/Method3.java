@@ -11,10 +11,10 @@ class Max{
 	long max(long a, long b) {
 		long result=0;
 		if(a>b) {
-			result =a;
+			result = a;
 		}
 		else{
-
+            result = b;
 		}
 		return result;
 	}
