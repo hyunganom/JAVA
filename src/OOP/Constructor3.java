@@ -2,27 +2,32 @@ package OOP;
 
 public class Constructor3 {
 
-	public static void main(String[] args) {
-		Car c = new Car("white", "auto", 4);
-	}
+    public static void main(String[] args) {
+
+        Car c = new Car("white", "auto", 4); // ì´ë ‡ê²Œ ê°„ë‹¨í•˜ê²Œ ìƒì„±í•  ìˆ˜ ìˆë‹¤.
+    }
 
 }
+
 class Car {
-	String color;
-	String gearType;
-	int door;
-	Car(){}
-	Car(String c, String g, int d){ // ¸Å°³º¯¼ö°¡ ÀÖ´Â »ı¼ºÀÚ
-		color = c;
-		gearType = g;
-		door = d;
-	}
+    String color;
+    String gearType;
+    int door;
+
+    Car() {
+    }
+
+    Car(String c, String g, int d) { // ë§¤ê°œë³€ìˆ˜ê°€ ìˆëŠ” ìƒì„±ì
+        color = c;
+        gearType = g;
+        door = d;
+    }
 }
 
-//À§¿¡ ¸ŞÀÎ¸Ş¼­µå¿¡ Àú·¸°Ô °£´ÜÇÏ°Ô »ı¼º ÇÒ ¼ö ÀÖ´Ù.
-//¿ù·¡´Â
+
+//ì›”ë˜ëŠ”
 //Car c = new Car();
 //c.color = "white";
 //c.gearType = "auto";
 //c.door = 4;
-//ÀÌ·¸°Ô Àû¾î¾ß ÇÔ
+//ì´ë ‡ê²Œ ë‹¤ì ì›Œ ì¤˜ì•¼í•¨ : ê·€ì°®ê³  ì•ˆì´ì˜ìë‚˜
