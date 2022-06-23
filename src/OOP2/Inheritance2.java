@@ -4,28 +4,28 @@ public class Inheritance2 {
 
 	public static void main(String[] args) {
 		smartTv stv = new smartTv();
-		stv.channel = 10;		//Á¶»ó Å¬·¡½º·ÎºÎÅÍ »ó¼Ó¹ŞÀº ¸â¹ö
-		stv.channeUp();			//Á¶»ó Å¬·¡½º·ÎºÎÅÍ »ó¼Ó¹ŞÀº ¸â¹ö
+		stv.channel = 10;		//ì¡°ìƒ í´ë˜ìŠ¤ë¡œë¶€í„° ìƒì†ë°›ì€ ë©¤ë²„
+		stv.channeUp();			//ì¡°ìƒ í´ë˜ìŠ¤ë¡œë¶€í„° ìƒì†ë°›ì€ ë©¤ë²„
 		System.out.println(stv.channel);
 		stv.displayCatiom("Hello, world");
-		stv.caption = true;		//Ä¸¼Ç ÀÚ¸·À» Å²´Ù.
+		stv.caption = true;		//ìº¡ì…˜ ìë§‰ì„ í‚¨ë‹¤.
 		stv.displayCatiom("Hello, world");
 	}
 
 }
 class Tv{
-	boolean power;	//Àü¿ø (on/off)
-	int channel;	//Ã¤³Î
+	boolean power;	//ì „ì› (on/off)
+	int channel;	//ì±„ë„
 	
 	void power() {power =! power;}
 	void channeUp() {++channel;}
 	void channeDown() {--channel;}
 }
 
-class smartTv extends Tv{	//smartTv´Â tv¿¡ Ä¸¼Ç(ÀÚ¸·)À» º¸¿©ÁÖ´Â ±â´ÉÀ» ¸»ÇÔ
-	boolean caption;	//Ä¸¼Ç»óÅÂ(on/off)
+class smartTv extends Tv{	//smartTvëŠ” tvì— ìº¡ì…˜(ìë§‰)ì„ ë³´ì—¬ì£¼ëŠ” ê¸°ëŠ¥ì„ ë§í•¨
+	boolean caption;	//ìº¡ì…˜ìƒíƒœ(on/off)
 	void displayCatiom(String text) {
-		if(caption) {	//Ä¸¼Ç»óÅÂ°¡ on(true)ÀÏ ¶§¸¸ text¸¦ º¸¿©ÁØ´Ù.
+		if(caption) {	//ìº¡ì…˜ìƒíƒœê°€ on(true)ì¼ ë•Œë§Œ textë¥¼ ë³´ì—¬ì¤€ë‹¤.
 			System.out.println(text);
 		}
 	}
