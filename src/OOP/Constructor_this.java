@@ -3,26 +3,27 @@ package OOP;
 public class Constructor_this {
 
 }
-//»ı¼ºÀÚ this()
-//»ı¼ºÀÚ¿¡¼­ ´Ù¸¥ »ı¼ºÀÚ È£ÃâÇÒ ¶§ »ç¿ë
-//´Ù¸¥ »ı¼ºÀÚ È£Ãâ½Ã Ã¹ ÁÙ¿¡¼­¸¸ »ç¿ë°¡´É
+//ìƒì„±ì this()
+//ìƒì„±ìì—ì„œ ë‹¤ë¥¸ ìƒì„±ì í˜¸ì¶œí•  ë•Œ ì‚¬ìš©
+//ë‹¤ë¥¸ ìƒì„±ì í˜¸ì¶œì‹œ ì²« ì¤„ì—ì„œë§Œ ì‚¬ìš©ê°€ëŠ¥
 
-class Car2{
-	String color;
-	String gearType;
-	int door;
-	
-	Car2(String color, String gearType, int door) {
-		this.color = color;
-		this.gearType = gearType;
-		this.door = door;
-	}
-	
-	Car2(){
-		this("white", "auto", 4);
-	}
-	
-	Car2(String color){
-		this(color,"auto",4);
-	}
+
+class Car2 {
+    String color;
+    String gearType;
+    int door;
+
+    Car2(String color, String gearType, int door) {
+        this.color = color;
+        this.gearType = gearType;
+        this.door = door;
+    }
+
+    Car2() {
+        this("white", "auto", 4);
+    }
+
+    Car2(String color) {
+        this(color, "auto", 4);
+    }
 }
