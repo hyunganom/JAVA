@@ -3,8 +3,8 @@ package OOP2;
 
 public class Single_Inheritance {
 }
-//´ÜÀÏ »ó¼Ó
-//java´Â ´ÜÀÏ »ó¼Ó¸¸À» Çã¿ëÇÑ´Ù.
+//ë‹¨ì¼ ìƒì†
+//javaëŠ” ë‹¨ì¼ ìƒì†ë§Œì„ í—ˆìš©í•œë‹¤.
 
 class MyTv{
 	boolean power;
@@ -37,4 +37,4 @@ class TvDvd extends Tv{
 		d.rew();
 	}
 }
-//ºñÁßÀÌ ³ôÀº Å¬·¡½º ÇÏ³ª¸¸ »ó¼Ó°ü°è·Î, ³ª¸ÓÁö´Â Æ÷ÇÔ°ü°è·Î ÇÑ´Ù.
+//ë¹„ì¤‘ì´ ë†’ì€ í´ëž˜ìŠ¤ í•˜ë‚˜ë§Œ ìƒì†ê´€ê³„ë¡œ, ë‚˜ë¨¸ì§€ëŠ” í¬í•¨ê´€ê³„ë¡œ í•œë‹¤.
