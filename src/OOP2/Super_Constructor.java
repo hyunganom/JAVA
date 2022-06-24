@@ -13,8 +13,13 @@ public class Super_Constructor {
 
 class Point_1{
     int x, y;
+//생성자의 첫 줄에 반드시 생성자를 호출해야 한다.
+    public Point_1() {
+        this(0,0);
+    }
 
     Point_1(int x, int y){
+        super();//컴파일러가 자동으로 추가해준다.
         this.x = x;
         this.y = y;
     }
