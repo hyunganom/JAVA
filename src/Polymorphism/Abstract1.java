@@ -1,6 +1,6 @@
 package Polymorphism;
 
-public class Abstract_class {
+public class Abstract1 {
 }
 //추상클래스
 //미완성 설계도. 미완성 메서드를 갖고 있는 클래스
