@@ -4,7 +4,9 @@ public class Parameter_Poly {
     public static void main(String[] args) {
         Buyer1 b1 = new Buyer1();
 
-        b1.buy(new Tv1());
+        Product1 p = new Tv1();
+        b1.buy(p); // b1.buy(new Tv1()); 이거랑 같다.
+
         b1.buy(new Computer1());
 
         System.out.println("현재 남은 돈은 " + b1.money);
@@ -18,7 +20,7 @@ class Product1{
 
     Product1(int price) {
         this.price = price;
-        bonusPoint = (int)(price/10.0);
+        this.bonusPoint = (int)(price/10.0);
     }
 }
 
