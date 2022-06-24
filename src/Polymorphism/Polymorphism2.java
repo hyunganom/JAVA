@@ -14,6 +14,7 @@ public class Polymorphism2 {
 }
 //참조변수의 형변환
 //사용할 수 있는 멤버의 갯수를 조절하는 것
+//조상 자손관계 참조변수는 서로 형변환 가능(형제들끼리는 안댐)
 
 class Car {
     String color;
