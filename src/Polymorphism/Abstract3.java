@@ -22,7 +22,7 @@ abstract class Unit{
 class Marine extends Unit{
     @Override
     void move(int x, int y) {
-        System.out.println("Marine[x="+x+",y"+y+"]");
+        System.out.println("Marine[x="+x+",y="+y+"]");
     }
     void steamPack(){}
 }
@@ -30,7 +30,7 @@ class Marine extends Unit{
 class Tank extends  Unit{
     @Override
     void move(int x, int y) {
-        System.out.println("Tank[x="+x+",y"+y+"]");
+        System.out.println("Tank[x="+x+",y="+y+"]");
     }
     void changeMode(){}
 }
@@ -38,7 +38,7 @@ class Tank extends  Unit{
 class Dropship extends Unit{
     @Override
     void move(int x, int y) {
-        System.out.println("Dropship[x="+x+",y"+y+"]");
+        System.out.println("Dropship[x="+x+",y="+y+"]");
     }
     void load(){}
     void unload(){}
