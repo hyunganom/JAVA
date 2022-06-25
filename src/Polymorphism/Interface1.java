@@ -6,8 +6,11 @@ public class Interface1 {
 //결론 : 추상 메서드의 집합
 //구현된 것이 전혀 없는 설계도. 껍데기(모든 멤버가 public)
 
+//추상클래스 : 추상클래스는 일반 클래스이고 추상메서드를 가지고있는거, 인터페이스는 완전 아무것도 가질 수 없고 추상메서드만 가지고있음 다른거 가지면 안댐.
+//즉 인터페이스는 iv를 가질수 없다.
+
 //interface 인터페이스이름{
-//      public static final 타입 상수이름 = 값;
+//      public static final 타입 상수이름 = 값; (핵심이아니라 부수적인서 메서드가 핵심임)
 //      public abstract 메서드이름(매개변수목록);
 // }
 
@@ -18,7 +21,7 @@ interface PlayingCard{
     int CLOVER = 1;             //public static final int CLOVER
 
     public abstract String getCardNumber();
-    String getCardKind();       //public abstract  String getCardKind();
+    String getCardKind();       //public abstract  String getCardKind(); ----public abstract 생략가능
 }
 
 //인터페이스의 조상은 인터페이스만 가능(object가 최고 조상이 아님;
