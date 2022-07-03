@@ -30,7 +30,9 @@ public class Array1 {
         Arrays.setAll(arr7, i -> (int)(Math.random()*6)+1);
         System.out.println("arr7="+Arrays.toString(arr7));
 
-        for(int i : arr7 ){
+        for(int i : arr7 ){ // 향상된 for문
+//            for(int i=0; i<arr7.length;i++){
+//                int x = arr7[i];
             char[] graph = new char[i];
             Arrays.fill(graph, '*');
             System.out.println(new String(graph)+i);
