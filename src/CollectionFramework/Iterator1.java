@@ -16,6 +16,7 @@ public class Iterator1 {
         list.add("4");
         list.add("5");
 
+        //Iterator는 일회용이라 다쓰고
         Iterator it = list.iterator();
 
         while (it.hasNext()) {
