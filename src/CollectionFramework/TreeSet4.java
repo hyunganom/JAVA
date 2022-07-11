@@ -12,5 +12,6 @@ public class TreeSet4 {
         }
         System.out.println("50보다 작은 값 : "+set.headSet(new Integer(50)) );
         System.out.println("50보다 큰 값 : "+set.tailSet(new Integer(50)) );
+        System.out.println("40과 80사이의 값 : "+set.subSet(40,80));
     }
 }
