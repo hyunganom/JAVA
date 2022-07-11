@@ -1,6 +1,5 @@
 package Generics;
 
-import java.util.AbstractList;
 import java.util.ArrayList;
 
 class Tv{}
