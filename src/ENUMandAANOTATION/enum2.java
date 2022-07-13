@@ -1,4 +1,4 @@
-package ENUM;
+package ENUMandAANOTATION;
 
 public class enum2 {
     public static void main(String[] args) {
