@@ -3,8 +3,8 @@ package IfforSratement;
 public class For_For {
 
 	public static void main(String[] args) {
-		//if¾È¿¡ if°¡ µé¾î°¥ ¼ö ÀÖµí forµµ °¡´ÉÇÏ´Ù. ±×¸®°í ÁßÃ¸È½¼ö¿¡´Â Á¦ÇÑÀÌ ¾ø´Ù.
-//		// ¾ÈÂÊ Æ÷¹® ¸ÕÀú ½ÇÇàÀÌ µÇ°í, ¹Û¿¡ÀÖ´Â Æ÷¹®ÀÌ ½ÇÇà.
+		//ifì•ˆì— ifê°€ ë“¤ì–´ê°ˆ ìˆ˜ ìžˆë“¯ forë„ ê°€ëŠ¥í•˜ë‹¤. ê·¸ë¦¬ê³  ì¤‘ì²©íšŸìˆ˜ì—ëŠ” ì œí•œì´ ì—†ë‹¤.
+//		// ì•ˆìª½ í¬ë¬¸ ë¨¼ì € ì‹¤í–‰ì´ ë˜ê³ , ë°–ì—ìžˆëŠ” í¬ë¬¸ì´ ì‹¤í–‰.
 //		for(int i=1;i<=10;i++) {
 //			for(int j=1;j<=5;j++) {
 //				System.out.print("*");
